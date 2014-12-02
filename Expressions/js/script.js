@@ -1,8 +1,4 @@
-//Expressions - Arithmetric Operators
+//Expressions - Modulo Operator
 
-//area of a triangle is half of the width times the height
-
-var width = 4;
-var height = 5;
-var area = width * height/2;
-console.log(area);
+var remainder = 32 /10;
+console.log(remainder);
