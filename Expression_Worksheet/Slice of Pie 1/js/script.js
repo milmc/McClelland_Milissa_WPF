@@ -2,7 +2,7 @@
 
 var partyPeople = 14;
 
-var pizzaOrder = 5;
+var pizzaOrder = 6;
 
 var slicesPizza = 8 * pizzaOrder;
 
