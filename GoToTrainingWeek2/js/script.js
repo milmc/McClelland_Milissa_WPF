@@ -31,3 +31,13 @@ var age = currentYear - yearBorn;
 
 //alert user with their current age
 alert(name + " " + "you are " + age + " years old.");
+
+//make it more complex!!!
+//ask user how many years in the future they would like to how old they will be
+var yearsMore = prompt("How many years in the future would you like to know?");
+
+console.log(yearsMore);
+
+
+
+
