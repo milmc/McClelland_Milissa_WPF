@@ -1,3 +1,3 @@
 //Prompt and Alert
 
-prompt();
+prompt("Enter your year of birth:");
