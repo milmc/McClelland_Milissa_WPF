@@ -38,6 +38,16 @@ var yearsMore = prompt("How many years in the future would you like to know?");
 
 console.log(yearsMore);
 
+//calculate their future age
+//cast the returned variable from a text string to a number
+//Number(thing to cast goes here)
+var futureAge = age + Number(yearsMore);
+console.log(futureAge);
+
+//make the results look pretty
+
+console.log("You will be " + futureAge + " in " + yearsMore + " years.");
+alert("You will be " + futureAge + " in " + yearsMore + " years.");
 
 
 
