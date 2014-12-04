@@ -6,7 +6,7 @@
  */
 
 //Alert user what is going on.
-alert("How to calculate how many days boxes of dog treats will last.");
+alert("Calculate how many days boxes of dog treats will last.");
 
 //Prompt the user for info on how many boxes they bought and store variable in numBoxes.
 var numBoxes = prompt("How many boxes of treats did you buy?");
