@@ -1,3 +1,9 @@
+/**
+ Milissa McClelland
+ SDI Section
+ Go To Training Week 2
+ 12-3-2014
+ */
 //Expressions - Assignment Operators
 
 var a = 3;
