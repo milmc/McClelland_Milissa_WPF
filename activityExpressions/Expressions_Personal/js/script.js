@@ -11,3 +11,7 @@ var amountBox = prompt("How many treats are in one box?");
 var dogTreats = prompt("How many treats do you give your dog a day?");
 var dogs = prompt("How many dogs do you have?");
 
+var resultTreats = numBoxes * amountBox / dogTreats / dogs;
+
+console.log(resultTreats);
+
