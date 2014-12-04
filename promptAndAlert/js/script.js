@@ -1,3 +1,9 @@
+/**
+ Milissa McClelland
+ SDI Section
+ Go To Training Week 2
+ 12-3-2014
+ */
 //Prompt and Alert
 
 var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width.");
