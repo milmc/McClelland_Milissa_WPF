@@ -28,7 +28,8 @@ var resultTreats = numBoxes * amountBox / dogTreats / dogs;
 //log result to console
 console.log(numBoxes + " " + " boxes of treats for " + dogs + " dogs will last" + " " + resultTreats + " days.");
 
-
+//alert user to results
+alert(numBoxes + " " + " boxes of treats for " + dogs + " dogs will last" + " " + resultTreats + " days.");
 
 
 
