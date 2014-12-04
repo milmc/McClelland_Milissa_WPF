@@ -1,3 +1,10 @@
+/**
+ Milissa McClelland
+ SDI Section
+ Go To Training Week 2
+ 12-3-2014
+ */
+
 //Calculate how old Sparky the Pit Bull is in dogs years based on his actual age.
 
 var humanYears = 1;
