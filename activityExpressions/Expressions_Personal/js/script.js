@@ -13,5 +13,8 @@ var dogs = prompt("How many dogs do you have?");
 
 var resultTreats = numBoxes * amountBox / dogTreats / dogs;
 
-console.log(resultTreats);
+console.log(numBoxes + " " + " boxes of treats for " + dogs + " dogs will last" + " " + resultTreats + " days.");
+
+
+
 
