@@ -22,3 +22,8 @@ var beetleTotal = beetleAmount * 5;
 
 var beetleResult = beetleMoney - beetleTotal;
 
+if(beetleTotal <= beetleMoney) {
+    console.log("You have selected " + beetleAmount + " beetles and will have have $" + beetleResult + " left over.");
+} else {
+    console.log("You have selected too many beetles for the amount you have. \nPlease try again.");
+}
