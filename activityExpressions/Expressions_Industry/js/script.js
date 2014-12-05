@@ -22,7 +22,8 @@ var amountOff = originalPrice - (convertPercent * originalPrice);
 //Log to console with the sentence 'percentage' off of $original price will be $amount off'.
 console.log(percentageOff + "%" + " off of " + "$" + originalPrice + " will be $" + amountOff + ".");
 
-
+//Alert the user of the outcome.
+alert(percentageOff + "%" + " off of " + "$" + originalPrice + " will be $" + amountOff + ".");
 
 
 
