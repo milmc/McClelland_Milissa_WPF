@@ -11,6 +11,7 @@ var groceryTotal = Number(grocerySpent[0] + Number(grocerySpent[1]) + Number(gro
 
 var aveSpent = groceryTotal / 5;
 
+console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks. That is and average of $" + aveSpent + " per week.");
 
 
 
