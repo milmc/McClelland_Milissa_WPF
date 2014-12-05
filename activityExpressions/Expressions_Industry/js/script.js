@@ -12,4 +12,8 @@ alert("What to tag an item that has gone on sale.");
 var originalPrice = prompt("What is the original price?");
 var percentageOff = prompt("What is the percentage off?");
 
+var convertPercent = percentageOff / 100;
+
+
+
 
