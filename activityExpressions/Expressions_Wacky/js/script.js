@@ -14,3 +14,7 @@ var beetleRhinoceros = prompt("How many Rhinoceros Beetles would you like?");
 var beetleStag = prompt("How many Stag Beetles would you like?");
 var beetleTitan = prompt("How many Titan Beetles would you like?");
 
+var beetles = [beetleGoliath, beetleRhinoceros, beetleStag, beetleTitan];
+
+var beetleAmount = Number(beetles[0]) + Number(beetles[1]) + Number(beetles[2]) + Number(beetles[3]);
+
