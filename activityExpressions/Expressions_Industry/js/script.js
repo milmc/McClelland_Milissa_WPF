@@ -14,6 +14,10 @@ var percentageOff = prompt("What is the percentage off?");
 
 var convertPercent = percentageOff / 100;
 
+var amountOff = originalPrice - (convertPercent * originalPrice);
+
+
+
 
 
 
