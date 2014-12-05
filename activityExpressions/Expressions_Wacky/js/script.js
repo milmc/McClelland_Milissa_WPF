@@ -30,7 +30,7 @@ var beetleTotal = beetleAmount * 5;
 var beetleResult = beetleMoney - beetleTotal;
 
 //Created an if else to tell user either how many beetles and how much they have left over OR tell them they have
-//selected too many beetles and they much try again.
+//selected too many beetles and they must try again.
 if(beetleTotal <= beetleMoney) {
     console.log("You have selected " + beetleAmount + " beetles and will have have $" + beetleResult + " left over.");
 } else {
