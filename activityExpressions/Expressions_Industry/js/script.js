@@ -16,7 +16,7 @@ var convertPercent = percentageOff / 100;
 
 var amountOff = originalPrice - (convertPercent * originalPrice);
 
-
+console.log(percentageOff + "%" + " off of " + "$" + originalPrice + " will be $" + amountOff + ".");
 
 
 
