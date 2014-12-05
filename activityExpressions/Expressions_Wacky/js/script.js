@@ -18,3 +18,7 @@ var beetles = [beetleGoliath, beetleRhinoceros, beetleStag, beetleTitan];
 
 var beetleAmount = Number(beetles[0]) + Number(beetles[1]) + Number(beetles[2]) + Number(beetles[3]);
 
+var beetleTotal = beetleAmount * 5;
+
+var beetleResult = beetleMoney - beetleTotal;
+
