@@ -9,5 +9,8 @@ alert("The Beetle Convention. \nHow many $5 beetles do you want to buy? \nHow mu
 
 var beetleMoney = prompt("How much money did you bring to the Beetle Convention?");
 
-
+var beetleGoliath = prompt("How many Goliath Beetles would you like?");
+var beetleRhinoceros = prompt("How many Rhinoceros Beetles would you like?");
+var beetleStag = prompt("How many Stag Beetles would you like?");
+var beetleTitan = prompt("How many Titan Beetles would you like?");
 
