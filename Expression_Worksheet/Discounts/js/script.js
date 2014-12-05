@@ -8,7 +8,7 @@ expressions worksheet
 
 var originalPrice = prompt("Calculating the price of item. \nWhat is the original price?");
 var discountAmount = prompt("What is the discount?");
-//var itemName = prompt("What is the item?");
+var itemName = prompt("What is the item?");
 var salesTax = prompt("What is the sales tax?");
 
 var salesAmount = discountAmount / 100 * originalPrice;
@@ -19,4 +19,4 @@ var taxPercent = salesTax / 100 * salesPrice;
 
 var priceTax = taxPercent + salesPrice;
 
-console.log(priceTax);
+console.log("Your " + itemName + " was originally $" + originalPrice + ", but after a " + discountAmount + "% discount, it is now " + salesPrice + " without tax, and $" + priceTax + " with tax.");
