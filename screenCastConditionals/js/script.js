@@ -6,8 +6,15 @@
  */
 //Conditionals
 
-temp = 62;
 
-if(temp == 75){
+if(Sunny){
  goToTheBeach();
+
+ if(warmWater){
+  wearNewSuit();
+ }
+
+}else{
+ goToTheMovies();
 }
+
