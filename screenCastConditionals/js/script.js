@@ -6,8 +6,8 @@
  */
 //Conditionals
 
-temp = 82;
+temp = 62;
 
-if(temp > 70){
+if(temp == 75){
  goToTheBeach();
 }
