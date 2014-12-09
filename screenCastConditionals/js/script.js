@@ -6,15 +6,11 @@
  */
 //Conditionals
 
+var oldEnough = false;
 
-if(Sunny){
- goToTheBeach();
-
- if(warmWater){
-  wearNewSuit();
- }
-
-}else{
- goToTheMovies();
+//if the child is old enough, print to the console "you can ride!"
+if(oldEnough){
+ //code preformed if condition is true
+ console.log("You can ride the coaster!");
 }
-
+console.log("What comes after");
