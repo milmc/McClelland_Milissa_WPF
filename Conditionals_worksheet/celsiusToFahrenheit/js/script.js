@@ -15,4 +15,5 @@ if(tempScale == "C"){
  console.log("The temperature is " + celsius + " degrees Celsius.");
 }else{
  var fahrenheit = ((temp-32)*5)/9;
+ console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.");
 }
