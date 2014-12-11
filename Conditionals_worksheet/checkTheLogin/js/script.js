@@ -16,4 +16,6 @@ if(inputUN === userName && inputPW === password){
  console.log("Welcome, " + userName + "!");
 }else if(inputUN != userName && inputPW === password){
  console.log("User not found. Try again.");
+}else{
+ console.log("Password does not match our records.");
 }
