@@ -13,7 +13,7 @@ var tempScale = prompt("Is that C or F?");
 //created a check to see if it is in celsius
 if(tempScale == "C"){
  //if it is in celsius then it runs the math to convert the temp to fahrenheit
- var fahrenheit = ((temp*9)/5)+32;
+  var fahrenheit = ((temp*9)/5)+32;
  //logs to the console the findings of var fahrenheit
  console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.");
  //if the temp is NOT in celsius then the else runs
