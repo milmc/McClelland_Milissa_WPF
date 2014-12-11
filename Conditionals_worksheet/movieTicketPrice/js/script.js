@@ -15,3 +15,5 @@ var normalTicket = "$12.00";
 var senior10 = "$7.00";
 var matinee = "$7.00";
 
+if(time >= 3 && time <= 5){
+ console.log("The ticket price is " + matinee + ".");
