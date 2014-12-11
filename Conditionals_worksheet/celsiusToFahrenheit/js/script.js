@@ -9,3 +9,5 @@
 
 var temp = prompt("What is the temperature?");
 var tempScale = prompt("Is that C or F?");
+
+if(tempScale == "C")
