@@ -17,3 +17,5 @@ var matinee = "$7.00";
 
 if(time >= 3 && time <= 5){
  console.log("The ticket price is " + matinee + ".");
+}else if(age <= 10 || age >= 55){
+ console.log("The ticket price is " + senior10 + ".");
