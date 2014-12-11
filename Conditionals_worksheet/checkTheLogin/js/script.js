@@ -12,5 +12,6 @@ var inputPW = prompt("What is your password?");
 var userName = "Godzilla54";
 var password = "Mothra64";
 
-
-
+if(inputUN === userName && inputPW === password){
+ console.log("Welcome, " + userName + "!");
+}
