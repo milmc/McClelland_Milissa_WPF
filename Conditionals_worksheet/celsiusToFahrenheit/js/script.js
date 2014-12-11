@@ -11,9 +11,9 @@ var temp = prompt("What is the temperature?");
 var tempScale = prompt("Is that C or F?");
 
 if(tempScale == "C"){
- var celsius = ((temp*9)/5)+32;
- console.log("The temperature is " + celsius + " degrees Celsius.");
-}else{
- var fahrenheit = ((temp-32)*5)/9;
+ var fahrenheit = ((temp*9)/5)+32;
  console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.");
+}else{
+ var celsius = ((temp-32)*5)/9;
+ console.log("The temperature is " + celsius + " degrees Celsius.");
 }
