@@ -10,3 +10,4 @@
 var eggAge = prompt("How many days old is the dragon egg?");
 var warmCold = prompt("Is the dragon egg warm or cold?");
 
+var hatch;
