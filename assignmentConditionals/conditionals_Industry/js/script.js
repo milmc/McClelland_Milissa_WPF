@@ -11,3 +11,5 @@ var weekHours = prompt("How many hours did you work this week?");
 var pay = prompt("How much per hour is your pay?");
 
 var weekPay = pay * weekHours;
+
+if(weekHours > 45){
