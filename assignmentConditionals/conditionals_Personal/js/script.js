@@ -16,7 +16,10 @@ if (groceries < 200 && savings > 200) {
  var leftOver1 = budget - groceries - savings;
  console.log("You will have $" + leftOver1 + " and you can go shopping.");
  alert("You will have $" + leftOver1 + " and you can go shopping.");
-
+}else if (groceries > 200 && savings >= 300){
+ var leftOver2 = budget - groceries - savings;
+ console.log("You will have $" + leftOver2 + " and you can go shopping.");
+ alert("You will have $" + leftOver2 + " and you can go shopping.");
 
 
 
