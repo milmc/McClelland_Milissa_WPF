@@ -23,3 +23,6 @@ var coupon = prompt("If you are not an employee, do you have a coupon?");
 
 else if(coupon == "yes"){
  var coupPrice = originalPrice - (.5*originalPrice);
+ console.log("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
+ alert("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
+
