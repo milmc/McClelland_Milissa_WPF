@@ -12,6 +12,10 @@ var budget = prompt("What is your budget?");
 var groceries = prompt("How much did you spend on groceries?");
 var savings =  prompt("How much did you put into savings?");
 
+if (groceries < 200 && savings > 200) {
+ var leftOver1 = budget - groceries - savings;
+ console.log("You will have $" + leftOver1 + " and you can go shopping.");
+ alert("You will have $" + leftOver1 + " and you can go shopping.");
 
 
 
