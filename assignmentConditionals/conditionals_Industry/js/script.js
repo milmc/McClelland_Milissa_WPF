@@ -25,4 +25,7 @@ else if(coupon == "yes"){
  var coupPrice = originalPrice - (.5*originalPrice);
  console.log("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
  alert("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
-
+}else{
+ console.log("You do not qualify for a discount. Your item is original price.");
+ alert("You do not qualify for a discount. Your item is original price.");
+}
