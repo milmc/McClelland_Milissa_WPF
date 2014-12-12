@@ -11,3 +11,6 @@ alert("Do you get to have a discount on your item?");
 var originalPrice = prompt("How much is the item?");
 var employee = prompt("Are you an employee?");
 
+
+
+if(employee === "yes"){
