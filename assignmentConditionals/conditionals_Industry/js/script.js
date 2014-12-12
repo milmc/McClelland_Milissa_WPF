@@ -18,3 +18,7 @@ if(employee === "yes"){
  console.log("Your item for $" + originalPrice + " is 20% off and is now $" + employPrice + ".");
  alert("Your item for $" + originalPrice + " gets an employee discount and is 20% off. Is now $" + employPrice + ".");
 }
+
+var coupon = prompt("If you are not an employee, do you have a coupon?");
+
+else if(coupon == "yes"){
