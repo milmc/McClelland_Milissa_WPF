@@ -14,3 +14,4 @@ var employee = prompt("Are you an employee?");
 
 
 if(employee === "yes"){
+ var employPrice = originalPrice - (.2*originalPrice);
