@@ -22,3 +22,4 @@ if(employee === "yes"){
 var coupon = prompt("If you are not an employee, do you have a coupon?");
 
 else if(coupon == "yes"){
+ var coupPrice = originalPrice - (.5*originalPrice);
