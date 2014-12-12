@@ -5,27 +5,7 @@
  12-3-2014
  */
 
-//Do you qualify for a discount
+//How much I will make in a week of work, will I get overtime, and what is my may after overtime
 
-alert("Do you get to have a discount on your item?");
-var originalPrice = prompt("How much is the item?");
-var employee = prompt("Are you an employee?");
-
-
-
-if(employee === "yes"){
- var employPrice = originalPrice - (.2*originalPrice);
- console.log("Your item for $" + originalPrice + " is 20% off and is now $" + employPrice + ".");
- alert("Your item for $" + originalPrice + " gets an employee discount and is 20% off. Is now $" + employPrice + ".");
-}
-
-var coupon = prompt("If you are not an employee, do you have a coupon?");
-
-else if(coupon == "yes"){
- var coupPrice = originalPrice - (.5*originalPrice);
- console.log("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
- alert("Your coupon is for 50% off. Your item for $" + originalPrice + " is now $" + coupPrice + ".");
-}else{
- console.log("You do not qualify for a discount. Your item is original price.");
- alert("You do not qualify for a discount. Your item is original price.");
-}
+var weekHours = prompt("How many hours did you work this week?");
+var pay = prompt("How much per hour is your pay?");
