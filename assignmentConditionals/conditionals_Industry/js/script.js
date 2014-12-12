@@ -15,3 +15,7 @@ var weekPay = pay * weekHours;
 if(weekHours > 45){
  console.log("You worked " + weekHours + " hours and made $" + weekPay + ". You will also get overtime.");
  alert("You worked " + weekHours + " hours and made $" + weekPay + ". You will also get overtime.");
+}else{
+ console.log("You worked " + weekHours + " hours and made $" + weekPay + ". You will not get overtime.");
+ alert("You worked " + weekHours + " hours and made $" + weekPay + ". You will not get overtime.");
+}
