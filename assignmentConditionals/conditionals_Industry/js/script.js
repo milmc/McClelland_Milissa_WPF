@@ -2,7 +2,7 @@
  Milissa McClelland
  SDI Section 04
  Assignment_Conditionals
- 12-3-2014
+ 12-10-2014
  */
 
 //How much I will make in a week of work and will I get overtime
@@ -10,6 +10,16 @@
 //created prompts for how many hours and how much pay and assigned to var
 var weekHours = prompt("How many hours did you work this week?");
 var pay = prompt("How much per hour is your pay?");
+
+
+//validates prompts had something entered into them
+if (weekHours === ""){
+ weekHours = prompt("You did not enter anything in.\nHow many Hours did you work this week?");
+}
+
+if (pay === ""){
+ pay = prompt("You did not enter anything in.\nHow many Hours did you work this week?");
+}
 
 //created var math, how many hours multiplied by how much an hour
 var weekPay = pay * weekHours;

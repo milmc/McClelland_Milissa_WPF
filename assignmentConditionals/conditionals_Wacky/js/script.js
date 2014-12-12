@@ -2,7 +2,7 @@
  Milissa McClelland
  SDI Section 04
  Assignment_Conditionals
- 12-3-2014
+ 12-10-2014
  */
 
 //Will the dragon egg hatch!
@@ -10,6 +10,16 @@
 //created var prompts for egg age and if it is cold or warm and assigned to var
 var eggAge = prompt("How many days old is the dragon egg?");
 var warmCold = prompt("Is the dragon egg warm or cold?");
+
+//validates prompts had something entered into them
+if (eggAge === ""){
+ eggAge = prompt("You did not enter anything in.\nHow many days old is the dragon egg?");
+}
+
+if (warmCold === ""){
+ warmCold = prompt("You did not enter anything in.\nIs the dragon egg warm or cold?");
+}
+
 //created var hatch
 var hatch;
 //created ternary that determines if egg age > 90 and if it is warm, it logs it will hatch. if not it logs it will not hatch
