@@ -1,7 +1,7 @@
 /**
  Milissa McClelland
  SDI Section 04
- Activity_Expressions - Wacky
+ Activity_Expressions - Wackyx
  12-3-2014
  */
 
