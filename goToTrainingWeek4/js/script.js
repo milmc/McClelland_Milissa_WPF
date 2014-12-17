@@ -10,7 +10,7 @@ Go To Training Week 4
 //Create a function that spits a random integer between two given values
 
 //Ask the user for a min number
-var min = prompt("Let's get a random number between two values. \nPlease type in the minimum value.");
+//var min = prompt("Let's get a random number between two values. \nPlease type in the minimum value.");
 
 //validate that the user actually typed in something, so not blank
 
@@ -34,10 +34,34 @@ while(isNaN(min)){
     min = prompt("Please only type in numbers. \nPlease type in a min number.");
 
 }
-*/
+
 
 //validate using a combined while loop
 while(min === "" || isNaN(min)){
+    if(min === ""){
+        //re-prompt the user
+        min = prompt("Please do not leave blank. \nPlease type in a min value");
+    }else{
+        min = prompt("Please only type in numbers. \nPlease type in a min value.")
+    }
+
+}
+
+*/
+
+
+//test if the user types in something specific
+var userGoodMood = prompt("Are you in a good mood? \n Please answer yes or no.");
+
+while(userGoodMood != "yes" && userGoodMood != "Yes" && userGoodMood != "no" && userGoodMood != "No"){
     //re-prompt the user
-    min = prompt("Please do not leave blank and only type in numbers. \nPlease type in a min value");
+    //Y is not the same as y
+    userGoodMood = ("Please only type in yes or no. \nAre you in a good mood?");
+
+}
+
+if(userGoodMood === "yes" || userGoodMood === "Yes"){
+    console.log("Great! Glad your in a fabulous mood!");
+}else{
+    Console.log("Sorry to hear that. \nMaybe you should code more, that should make you happy!")
 }
