@@ -9,7 +9,7 @@ Go To Training Week #3
 //Create code that sorts through of fruit names and picks out pears
 //create our "fruit bowl" array
 
-var bowlOfFruit = ["apple", "banana", "pear", "peach","pear", "tomato", "kiwi", "pear"];
+var bowlOfFruit = ["apple", "apple", "banana", "pear", "peach","pear", "tomato", "kiwi", "pear", "banana", "pear"];
 //console logs the WHOLE array
 console.log(bowlOfFruit);
 
@@ -84,7 +84,7 @@ var pearNumber = 0;
 //For Loop - is great for when you know how many times it should run
 //for(initialize a counting variable; condition to test; incremental change){code to run each loop around}
 
-for(var i=0; i<8; i++){
+for(var i=0; i<bowlOfFruit.length; i++){
     console.log("Inside of the loop " + i );
     console.log(bowlOfFruit[i]);
     //test each fruit if it is a pear
