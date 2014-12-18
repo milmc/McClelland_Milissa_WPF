@@ -14,4 +14,12 @@ function randomizr(startNum,endNum){
 }
 var results = randomizr(75,200);
 
+var result = totalDMG(prompt("What is your strength? (1 - 5)"), results);
+function totalDMG(s,d){
+ var dMG = s * d;
+ return dMG;
+}
+
+
+
 
