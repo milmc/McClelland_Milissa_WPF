@@ -12,7 +12,7 @@ function calcCir(r){
  return circumference;
 }
 
-
+console.log("The circumference of the circle is: " + result);
 
 
 
