@@ -20,3 +20,9 @@ do{
     c--;
 }
 while (c > 0);
+
+console.log("----For Loops----");
+
+for(var i = 10; i > 0; i--){
+    console.log(i + " Kegs on the wall.");
+}
