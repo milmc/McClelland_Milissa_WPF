@@ -12,5 +12,6 @@ function randomizr(startNum,endNum){
  var randomNumber = Math.round(Math.random() * (endNum - startNum) + Number(startNum));
  return randomNumber;
 }
+var results = randomizr(75,200);
 
 
