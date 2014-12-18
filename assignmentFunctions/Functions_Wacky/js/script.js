@@ -20,6 +20,8 @@ function totalDMG(s,d){
  return dMG;
 }
 
-
+var defeatDrag;
+defeatDrag = (results >= 145) ? "You did " + results + " damage to the dragon and it is defeated!" : "You only did " + results + " damage and the dragon is now angry and eats you.";
+console.log(defeatDrag);
 
 
