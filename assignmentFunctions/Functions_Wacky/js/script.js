@@ -8,3 +8,5 @@
 alert("Can you defeat the mighty dragon? \nLets find out!");
 
 
+function randomizr(startNum,endNum){
+
