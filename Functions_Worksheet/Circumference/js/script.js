@@ -7,6 +7,8 @@
 
 
 calcCir(prompt("What is the radius of the circle?"));
+function calcCir(r){
+
 
 
 
