@@ -14,3 +14,4 @@ function stingWeight(w){
  var stings = 8.666666667 * w;
  return stings;
 }
+console.log("It takes " + result + " bee stings to kill this animal.");
