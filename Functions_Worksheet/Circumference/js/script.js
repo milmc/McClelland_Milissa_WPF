@@ -9,6 +9,9 @@
 calcCir(prompt("What is the radius of the circle?"));
 function calcCir(r){
  var circumference = 2 * Math.PI * r;
+ return circumference;
+}
+
 
 
 
