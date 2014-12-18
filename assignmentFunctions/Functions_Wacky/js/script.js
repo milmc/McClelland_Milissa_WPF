@@ -31,6 +31,8 @@ var defeatDrag;
 defeatDrag = (results >= 145) ? "You did " + results + " damage to the dragon and it is defeated!" : "You only did " + results + " damage and the dragon is now angry and eats you.";
 //logs the results of defeatDrag to console
 console.log(defeatDrag);
+//alerts the user of the outcome
+alert(defeatDrag);
 
 
 
