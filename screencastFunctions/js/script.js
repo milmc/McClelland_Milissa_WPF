@@ -1,17 +1,25 @@
 /*
 Milissa McClelland
 SDI sec 4
-Functions - Function vs Procedure
+Functions -
+anonymous Functions
  */
 
-//This is a function
-function calcAreaF(width, Height){
+/*
+function calcArea(width, height){
+    //code the function runs
     var area = width * height;
-    return area
+    return area;
+}
+*/
+
+
+
+var calcArea = function(width, height){ //defining function
+    //code the function runs
+    var area = width * height;
+    return area;
 }
 
-//This is a procedure
-function calcAreaP(width, height){
-    var area = width * height;
-    console.log(area); //no return
-}
+var a = calcArea(20,30); //Invoking function
+console.log(a);
