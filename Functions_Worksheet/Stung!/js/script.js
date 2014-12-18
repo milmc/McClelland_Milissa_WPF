@@ -10,3 +10,6 @@ Functions Worksheet - Stung!
 
 var result = stingWeight(prompt("How much does the animal weigh in pounds?"));
 
+function stingWeight(w){
+
+
