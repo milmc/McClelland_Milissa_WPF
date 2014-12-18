@@ -9,4 +9,8 @@ alert("Can you defeat the mighty dragon? \nLets find out!");
 
 
 function randomizr(startNum,endNum){
+ var randomNumber = Math.round(Math.random() * (endNum - startNum) + Number(startNum));
+ return randomNumber;
+}
+
 
