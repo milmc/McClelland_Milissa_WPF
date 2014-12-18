@@ -1,14 +1,17 @@
 /*
 Milissa McClelland
-Screencast:Functions
-SDI sec 04
+SDI sec 4
+Functions - Function vs Procedure
  */
 
-var total = calcArea(30, 20);
-
-function calcArea(w,h){
-    var area = w * h;
-    return area;//function spitting the info out
+//This is a function
+function calcAreaF(width, Height){
+    var area = width * height;
+    return area
 }
 
-console.log(total);
+//This is a procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area); //no return
+}
