@@ -9,6 +9,9 @@ var cardAmount = prompt("How many Star Cards did you register?");
 
 var starMoney = starCardEarned(cardAmount);
 function starCardEarned(a){
+ var amountMoney = a * 5;
+ return amountMoney;
+}
 
 
 
