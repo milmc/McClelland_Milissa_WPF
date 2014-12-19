@@ -15,6 +15,8 @@ function interestCalc(p,r,t) {
  var interest = (p * loanPercentConvert * t) / 12;
  return interest;
 }
+console.log("Your car loan will have $" + resultInterest + " in interest.");
+alert("Your car loan will have $" + resultInterest + " in interest.");
 
 
 
