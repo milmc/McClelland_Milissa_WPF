@@ -27,7 +27,7 @@ function totalDMG(s,d){
 }
 //storage for var
 var defeatDrag;
-//weighs results agains 145(dragons health) and depending on the outcome the outcome is chosen
+//weighs results against 145(dragons health) and depending on the outcome the outcome is chosen
 defeatDrag = (results >= 145) ? "You did " + results + " damage to the dragon and it is defeated!" : "You only did " + results + " damage and the dragon is now angry and eats you.";
 //logs the results of defeatDrag to console
 console.log(defeatDrag);
