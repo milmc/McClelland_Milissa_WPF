@@ -17,6 +17,7 @@ function starCardEarned(a){
 if(starMoney > 100){
  console.log("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ". \nYou are now on the Top Register List!");
  alert("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ". \nYou are now on the Top Register List!");
-
-
+}else if(starMoney < 100 && starMoney > 0){
+ console.log("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ".");
+ alert("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ".");
 
