@@ -13,6 +13,8 @@ var resultInterest = interestCalc(prompt("How much is your loan?"),prompt("How m
 function interestCalc(p,r,t) {
  var loanPercentConvert = r / 100;
  var interest = (p * loanPercentConvert * t) / 12;
+ return interest;
+}
 
 
 
