@@ -21,7 +21,7 @@ function interestCalc(p,r,t) {
 }
 //logs the result to the console
 console.log("Your car loan will have $" + resultInterest + " in interest.");
-//alerts the user of the outcome of what they entered in 
+//alerts the user of the outcome of what they entered in
 alert("Your car loan will have $" + resultInterest + " in interest.");
 
 
