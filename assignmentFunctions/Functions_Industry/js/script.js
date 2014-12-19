@@ -20,4 +20,8 @@ if(starMoney > 100){
 }else if(starMoney < 100 && starMoney > 0){
  console.log("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ".");
  alert("You registered " + cardAmount +" Star Cards and earned $" + starMoney + ".");
+}else{
+ console.log("You did not register any Star Cards.");
+ alert("You did not register any Star Cards.");
+}
 
