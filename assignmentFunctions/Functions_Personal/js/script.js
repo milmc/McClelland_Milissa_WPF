@@ -10,7 +10,7 @@
 alert("How much is the interest of your car loan.");
 
 var resultInterest = interestCalc(prompt("How much is your loan?"),prompt("How much is the loan %?"),prompt("How many months to pay off car loan?"));
-
+function interestCalc(p,r,t) {
 
 
 
